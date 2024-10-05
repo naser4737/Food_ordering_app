@@ -1,0 +1,29 @@
+/* src/components/MenuItem.css */
+/* src/components/MenuItem.css */
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-item-image {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.menu-item-details {
+    margin-top: 10px;
+}
+
+.menu-item-available,
+.menu-item-type {
+    font-size: 14px;
+    color: #555;
+}
